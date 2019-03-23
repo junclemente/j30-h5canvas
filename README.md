@@ -1,4 +1,4 @@
-# Project: Type Ahead
+# Project: Fun with HTML5 Canvas
 
 ## About
 I've been doing some form of web development for about seven years or so... mostly basic HTML, CSS and JavaScript. I've taken two of [Udacity's](https://www.udacity.com) nanodegree programs: Front End and Full Stack Web Developer. I have learned a lot from those courses but I know that there are situations and use cases that I haven't seen or been exposed to.
