@@ -12,10 +12,6 @@ This project is a practice in writing vanilla JavaScript and to learn about othe
 
 
 #### Project takeaways
-* `Array.prototype.some` checks if at least one element in array meets the criteria
-* `Array.prototype.all` checks if all items in array meets the criteria
-* `Array.prototype.find` returns the element that matches the specified criteria
-* `Array.prototype.findIndex` return the index of the element that matches the specified criteria. This can then be used to delete the item from the array.
-* `...` spread syntax notation function in ES6. Allows an iterable to be expanded in place
-* `Array.prototype.splice` changes the contents of an array by removing/replacing existing elements
-* `Array.prototype.slice` returns a copy of a portion of an array into a new array object. Does not modify the original array.
+* `<canvas></canvas>` Experimented with using HTML5 canvas
+* `ctx` Define the context of the canvas and other variables
+* `[x, y] = [a, b]` A way to define two variables at the same time
