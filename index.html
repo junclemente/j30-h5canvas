@@ -10,8 +10,15 @@
 const canvas = document.querySelector("#draw");
 const ctx = canvas.getContext('2d');
 
+// Resize canvas
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
+
+// Define stroke style
+ctx.strokeStyle = "#BADA55";
+ctx.lineJoin = "round";
+ctx.joineCap = "round";
+
 
 </script>
 
