@@ -17,7 +17,8 @@ canvas.height = window.innerHeight;
 // Define stroke style
 ctx.strokeStyle = "#BADA55";
 ctx.lineJoin = "round";
-ctx.joineCap = "round";
+ctx.lineCap = "round";
+ctx.lineWidth = 100;
 
 // Drawing variables
 let isDrawing = false;
@@ -28,7 +29,6 @@ let lastY = 0;
 function draw(e) {
     if (!isDrawing) return; // Stops function from running when they are not moused down
     console.log(e);
-
     ctx.beginPath();
     ctx.moveTo(lastX, lastY);
     ctx.lineTo(e.offsetX, e.offsetY);
